@@ -1,0 +1,182 @@
+/*------------------------------
+	Reset
+_______________________________*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*------------------------------
+	Globals
+_______________________________*/
+html {
+	overflow: hidden;
+}
+
+a, a:visited {
+	outline: none;
+	color: #38a8c1;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+section, footer, header, aside {
+	display: block;
+}
+
+/*------------------------------
+	Page elements
+_______________________________*/
+
+body {
+	font: 15px/1.3 'Lato', sans-serif;
+	color: #000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+#game {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: top 0.4s;
+}
+
+#game > div {
+	height: 100%;
+	position: relative;
+}
+
+#game h1 {
+	font-weight: normal;
+	font-size: 48px;
+	text-align: center;
+	color: #000;
+	margin-bottom: 60px;
+}
+
+#game h2 {
+	font-weight: normal;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	margin: -40px 0 45px;
+}
+
+.content {
+	position: absolute;
+	text-align: center;
+	left: 0;
+	padding-top:;
+	top: 30%;
+	width: 100%;
+}
+
+.content input[type=text] {
+	display: none;
+	margin-top:12px;
+}
+
+#player1{
+	background-color:#75c0d1;
+}
+#player2 {
+	background-color: #E7A8D1;
+}
+
+
+button {
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 1px;
+	display: block;
+	line-height: 70px;
+	box-shadow: inset 1px 1px 0 rgba(0,0,0,0,0.8);
+	cursor: pointer;
+	font-size: 18px;
+	margin: 10px auto;
+	opacity: 0.9;
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+.button::before {
+	content: '';
+	background: url();
+}
+
+.button.red{
+	background-color: #92cd84;
+}
+h1 {
+	font-size:1.5em;
+}
+
+h1.title {
+	font-size: 2em;
+	font-family: 'Raleway';
+	font-weight: 700;
+}
+
+input[type=text] {
+	width:100px;
+}
+
+.letter {
+	display:inline-block;
+	padding:3px;
+
+}
+
+.dice {
+	background-color: #fff;
+	border: none;
+	padding-top:25px;
+	line-height: 1;
+	height:100px;
+	font: inherit;
+	display: inline-block;
+	outline: none;
+	width: 75%;
+	margin-bottom: 18px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0,0,0,0.05);
+	font-size: 36px;
+	color: #fff;
+	margin-right:10px;
+	border:1px solid #ccc;
+	text-align:center;
+	box-sizing:border-box;	
+}
+
+
+
+button {
+	border:1px solid #ccc;
+	background-color:#eee;
+	
+}
+button:hover {
+	background-color:#dfdfdf;
+	button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.output {
+	text-align: center;
+	font-weight: 300;
+}
